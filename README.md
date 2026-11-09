@@ -55,8 +55,8 @@ Everything in Stage 2, plus:
 ## Data File Formats
 
 All data is stored as comma-and-space separated plain text, one record per line.
-default user: admin
-Password: adm1n
+`Default user: admin`
+`Password: adm1n`
 
 **`user.txt`**: `username, password`
 ```
