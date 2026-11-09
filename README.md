@@ -43,10 +43,12 @@ Everything in Stage 2, plus:
 - No external libraries are needed (only the standard library: `datetime`, `os`)
 
 ## Getting Started
-1. **Download the data files** to be saved in the same folder as the scripts.
+1. **Download the txt files** to be saved in the same folder as the scripts.
    At minimum you need a `user.txt` containing an `admin` account, 
 
-3. **Run the version you want**
+2. **Run the version you want**
+`Default user: admin`
+`Password: adm1n`
    python task_manager.py          # Stage 1
    python task_manager_admin.py    # Stage 2
    python task_manager_task_3.py   # Stage 3 (most complete)
@@ -55,8 +57,6 @@ Everything in Stage 2, plus:
 ## Data File Formats
 
 All data is stored as comma-and-space separated plain text, one record per line.
-`Default user: admin`
-`Password: adm1n`
 
 **`user.txt`**: `username, password`
 ```
